@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Problema 3.9</title>
+
+<link rel="stylesheet" href="../styles/estilos.css">
+
+</head>
+<body>
+
+<div class="contenedor">
+
+<h2>Problema 3.9</h2>
+
+<p>Calcular costo de póliza.</p>
+
+<select id="tipo">
+<option value="A">Cobertura A</option>
+<option value="B">Cobertura B</option>
+</select>
+
+<br><br>
+
+<label>
+<input type="checkbox" id="alcohol">
+Alcohol
+</label>
+
+<br>
+
+<label>
+<input type="checkbox" id="lentes">
+Lentes
+</label>
+
+<br>
+
+<label>
+<input type="checkbox" id="enfermedad">
+Enfermedad
+</label>
+
+<br><br>
+
+<input type="number" id="edad" placeholder="Edad">
+
+<button onclick="calcularPoliza()">Calcular</button>
+
+<h3 id="resultado"></h3>
+
+</div>
+
+<script src="../scripts/decisiones.js"></script>
+
+</body>
+</html>
